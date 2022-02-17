@@ -3,3 +3,40 @@
     padding:0;
     box-sizing: border-box;
 }
+
+
+body{
+    font : 18px;
+    
+}
+
+
+.heading-section{
+    background-image: url(images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header ul{
+     list-style: none;
+}
+
+
+.heading{
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+    color: white
+}
