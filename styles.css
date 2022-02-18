@@ -8,14 +8,20 @@
 body{
     font : 18px;
     
+    
 }
 
 
+
 .heading-section{
-    background-image: url(images/desktop/image-header.jpg);
+    background-image: url(images/desktop/image-header.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -23,20 +29,102 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 3rem;
+    padding: 2rem 3rem;
+}
+
+
+.heading{
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    padding-bottom: 2rem;
 }
 
 .header a{
+     /* font-family: 'Fraunces', serif; */
+     font-family: 'Barlow', sans-serif;
     text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 2rem;
+    width: 100px;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    
+}
+
+
+.header a:hover{
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
 }
 
 .header ul{
      list-style: none;
 }
 
-
-.heading{
-    font-family: 'Barlow', sans-serif;
-    /* font-family: 'Fraunces', serif; */
-    color: white
+.header ul li{
+    list-style: none;
 }
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li{
+    margin-left: 1.5rem;
+    padding-left: 0.5rem;
+}
+
+.heading2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5rem;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.7rem;
+}
+
+svg{
+    position: absolute;
+    align-self: center;
+    margin-top: 20rem;
+}
+
+.Services1{
+    /* height: 100vh; */
+    display: grid;
+    grid-template-columns: repeat(2,  1fr);
+    width: 100%;
+}
+
+
+.Transform-Image.Services1{
+    width: 100%;
+}
+    
+.Transform-Image{
+    width: 100%;
+    height: 700px;
+    border-color: red;
+}
+
+.Transform-text.Service1{
+    font-family: 'Fraunces', serif;
+    display: flex; 
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    padding-top:  12rem;
+    margin: 5rem auto;
+    /* color: white; */
+}
+
+.headings.Transform{
+    margin-bottom: 2rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+    font-size: 2.5rem;
+}
+
