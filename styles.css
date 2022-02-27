@@ -123,10 +123,22 @@ svg{
 
 
     
-.Transform-Image, .Stand-out-Image{
+/* .Transform-Image, .Stand-out-Image{
     display: block;
     width: 100%;
+} */
+
+.Service.Stand-out-Image.desktop{
+ background-image: url(images/desktop/image-stand-out.jpg);
 }
+
+
+.Service.Transform-Image.desktop{
+ background-image: url(images/desktop/image-transform.jpg) ;
+}
+
+
+
 
 .Transform-text.Service{
     font-family: 'Fraunces', serif;
@@ -228,4 +240,176 @@ svg{
  }
 
 
+ .Service.Graphic-design{
+     background-image: url(images/desktop/image-graphic-design.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 79vh;
+     display: flex;
+     
+ }
+
+
+ .Service.Graphic-design-text{
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     position: relative;
+     bottom: 6rem;
+     color:hsl(167, 40%, 24%);
+     
+ }
+
+ .Graphic-design.headings{
+    font-family: 'Fraunces', serif;
+    text-transform: capitalize;
+    margin-bottom: 0.3rem;
+ }
+
+ .Graphic-design.paragraphs{
+    font-family: 'Barlow', sans-serif;
+    margin: 0 10.5rem;
+    position: relative;
+    top: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+ }
+
+
+
+
+
+
+
+ .Service.Photography{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+ }
+
+
+.Service.Photography-text{
+    display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     align-items: center;
+     position: relative;
+     bottom: 6rem;
+     color:hsl(198, 62%, 26%);
+     
+}
+
+ .Photography.headings{
+    font-family: 'Fraunces', serif;
+    text-transform: capitalize;
+    margin-bottom: 0.3rem;
+    font-size: 1.5rem;
+ }
+
+
+ .Photography.paragraphs{
+    font-family: 'Barlow', sans-serif;
+    margin: 0 10.5rem;
+    position: relative;
+    top: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+ }
  
+
+ .Testimonials-heading{
+    font-family: 'Fraunces', serif;
+     text-align: center;
+     position: relative;
+     top: 10rem;
+     text-transform: uppercase;
+     letter-spacing: 0.5rem;
+     color: hsl(232, 10%, 55%);
+     font-size: 1rem;
+     opacity: 0.7;
+ }
+ 
+ .Testimonials{
+     display: flex;
+     height: 100vh;
+     justify-content:space-around;
+     align-items: center;
+      gap: 1rem;
+     text-align: center;
+
+ }
+
+ .Jennie-img, .Thomas-img, .Emily-img{
+     border-radius: 10000rem;
+     width: 5rem;
+     margin-top: 4rem;
+ }
+
+
+ .Emily-img{
+     margin-left: 9rem;
+ }
+
+
+ .Thomas-img{
+    margin-left: 5rem;
+ }
+
+
+ /* .Jennie-img{
+ margin-right: 20rem;
+ } */
+
+
+
+ .Testimonial-Emily.paragraph,.Testimonial-Thomas.paragraph,.Testimonial-Jennie.paragraph{
+    color:hsl(212, 9%, 39%);
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    line-height: 1.7rem;
+    margin-top: 3.5rem;
+    
+
+ }
+
+ .Testimonial-Jennie.paragraph{
+    padding-left: 0.1rem;
+    padding-right: 4rem;
+    text-align: center;
+    position: relative;
+    right: 7rem
+ }
+
+ .Testimonial-Emily.paragraph{
+    padding-left: 10rem;
+    padding-right: 1rem;
+    text-align: center;
+    line-height: 1.7rem;
+    position:relative;
+    left: 2rem;
+ }
+
+ .Testimonial-Thomas.paragraph{
+     padding-left: 5rem;
+     padding-right: 6rem;
+    text-align: center;
+    line-height: 1.7rem;
+    position:relative;
+    right: 2rem;
+ }
+
+
+ .Testimonial-Emily.name{
+     
+ }
