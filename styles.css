@@ -246,7 +246,7 @@ svg{
      background-size: cover;
      background-repeat: no-repeat;
      width: 100%;
-     height: 79vh;
+     min-height: 79vh;
      display: flex;
      
  }
@@ -290,7 +290,7 @@ svg{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 79vh;
+    /* height: 79vh; */
     display: flex;
     flex-direction:column;
     justify-content: flex-end;
@@ -411,5 +411,5 @@ svg{
 
 
  .Testimonial-Emily.name{
-     
+
  }
