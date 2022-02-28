@@ -467,7 +467,7 @@ svg{
 
  .Pictures{
      display: grid;
-     grid-template-columns: repeat( auto-fit, minmax(10rem,  1fr));
+     grid-template-columns: repeat(2, 1fr);
  }
 
 
@@ -505,6 +505,12 @@ svg{
 
 
 @media (min-width: 50em){
+
+
+    .Pictures{
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(20rem,  1fr));
+    }
 
  .Picture1.desktop{
     background-image: url(images/desktop/image-gallery-milkbottles.jpg);
